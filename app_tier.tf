@@ -1,4 +1,4 @@
-# App Tier Subnet + App NSG
+
 resource "azurerm_subnet" "app" {
   name                 = "${var.prefix}-app-subnet"
   resource_group_name  = azurerm_resource_group.main.name

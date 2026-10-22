@@ -1,4 +1,4 @@
-# LB Public IP -> Azure Standard Load Balancer
+
 resource "azurerm_public_ip" "lb" {
   name                = "${var.prefix}-lb-pip"
   location            = azurerm_resource_group.main.location

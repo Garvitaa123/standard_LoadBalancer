@@ -1,4 +1,4 @@
-# DB Tier Subnet + DB NSG
+
 resource "azurerm_subnet" "db" {
   name                 = "${var.prefix}-db-subnet"
   resource_group_name  = azurerm_resource_group.main.name
